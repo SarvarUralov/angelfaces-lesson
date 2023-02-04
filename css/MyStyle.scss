@@ -1,0 +1,97 @@
+:root {
+    // fonts variables
+    --primary-font: "Inter";
+    --secondary-font: "Nunito";
+    --added-font: "Montserrat"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--primary-font);
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 15px 0;
+
+    &__navbar {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.navbar_logo {
+    display: block;
+    max-width: 80px;
+    max-height: 80px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    &-item {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    &-link {
+        color: #020105;
+        line-height: 20px;
+        text-decoration: none;
+        font-weight: 400;
+    }
+}
+
+.down-icon {
+    display: none;
+    margin-left: 7px;
+}
+
+.submenu .down-icon {
+    display: block;
+}
+
+.submenu_list {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+.navbar__menu-item:hover .submenu_list {
+    display: block;
+}
+
+.header__contact_lang {
+    display: flex;
+    align-items: center;
+}
+
+.my-btn {
+    border: 1px solid #8F2ADC;
+    border-radius: 30px;
+    padding: 19px 27px;
+    background: linear-gradient(90deg, #544695 -12.65%, #754088 115.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

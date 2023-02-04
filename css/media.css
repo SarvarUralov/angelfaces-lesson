@@ -1,0 +1,14 @@
+@media (max-width: 767.99px) {
+    .navbar_toggle {
+        background-color: transparent;
+        border: none;
+        font-size: 25px;
+        color: #8F2ADC;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar_toggle {
+        display: none;
+    }
+}
