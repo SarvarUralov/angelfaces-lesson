@@ -12,3 +12,84 @@
         display: none;
     }
 }
+
+@media (max-width: 550px) {
+    .header__bg-color {
+        display: block;
+        background: #fff;
+        height: 360px;
+    }
+
+    .header__words {
+        margin: 0;
+        row-gap: 0;
+    }
+
+    .header__words-h1 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #020105;
+    }
+
+    .header__words-p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #020105;
+        opacity: 0.9;
+        margin-bottom: 24px;
+    }
+
+    .boxes {
+        display: block;
+    }
+
+    .bttn {
+        padding: 18px 37px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        color: #020105;
+    }
+
+    .icon__div p {
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #020105;
+    }
+
+    .angel {
+        margin-bottom: 0;
+    }
+
+    .box__h1 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #68438E;
+    }
+
+    .box__p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #68438E;
+    }
+
+    .icon__div {
+        border: 2px solid rgba(64, 38, 38, 0.456);
+    }
+}

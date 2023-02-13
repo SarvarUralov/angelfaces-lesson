@@ -95,3 +95,22 @@ body {
     background-clip: text;
     text-fill-color: transparent;
 }
+
+
+.header__words-h1 {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__words-p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
