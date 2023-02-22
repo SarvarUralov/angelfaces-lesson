@@ -4,6 +4,7 @@
         border: none;
         font-size: 25px;
         color: #8F2ADC;
+        margin-left: 17px;
     }
 }
 
@@ -91,5 +92,56 @@
 
     .icon__div {
         border: 2px solid rgba(64, 38, 38, 0.456);
+    }
+
+    .section__title {
+        margin-left: 0;
+    }
+
+    .section__image {
+        width: 100%;
+        max-width: 350px;
+        display: none;
+    }
+
+    .navbar__menu {
+        display: none;
+    }
+
+    .my-btn {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 8px 11px;
+    }
+
+    .section__title h1 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+    }
+
+    .section__title li a {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .btn-secondary {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 18px 90px;
+    }
+
+    .section__row-2 {
+        display: block;
     }
 }

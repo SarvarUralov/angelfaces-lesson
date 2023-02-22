@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 :root {
   --primary-font: "Inter";
@@ -45,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-left: 60px;
 }
 
 .navbar__menu-item {
@@ -304,6 +306,7 @@ body {
 .section__row-1 {
   align-items: center;
   background: #FBF8FF;
+  margin-bottom: 120px;
 }
 
 .section__image {
@@ -364,4 +367,94 @@ ul {
   line-height: 22px;
   color: #FFFFFF;
   border: 0;
+}
+
+.section__row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.toolbox-1 {
+  width: 380px;
+  height: 180px;
+  margin-left: 10px;
+  background: #FF9C25;
+  border-radius: 24px;
+}
+
+.toolbox-1__icon {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+  margin-bottom: 39px;
+}
+
+.fa-pen {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.toolbox-2 {
+  width: 380px;
+  height: 180px;
+  margin-left: 20px;
+  background: #6868AC;
+  border-radius: 24px;
+}
+
+.toolbox-3 {
+  width: 380px;
+  height: 180px;
+  margin-left: 20px;
+  background: #8F2ADC;
+  border-radius: 24px;
+}
+
+.toolbox__title {
+  display: flex;
+  align-items: center;
+}
+
+.toolbox__title h1 {
+  width: 100%;
+  max-width: 260px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+.toolbox__title h2 {
+  width: 100%;
+  max-width: 179px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+.toolbox__title h3 {
+  width: 100%;
+  max-width: 285px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+
+.toolbox__title i {
+  color: white;
+  font-size: 60px;
+}
+
+.mar_jin {
+  margin-left: 100px;
 }
